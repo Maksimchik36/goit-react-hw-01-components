@@ -1,6 +1,8 @@
 import user from 'user.json';
-
 import Profile from './Profile' ;
+
+import data from 'data.json';
+import Statistics from './Statistics';
 
 export const App = () => {
   return (
@@ -9,6 +11,7 @@ export const App = () => {
         height: '100vh',
         display: 'flex',
         justifyContent: 'center',
+        flexDirection: 'column',
         alignItems: 'center',
         fontSize: 40,
         color: '#010101'
@@ -20,7 +23,9 @@ export const App = () => {
     location={user.location}
     avatar={user.avatar}
     stats={user.stats}
-  /> 
+      /> 
+
+      <Statistics title="Upload stats" stats={data} />
     </div>
   );
 };
