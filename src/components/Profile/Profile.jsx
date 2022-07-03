@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './Profile.module.css';
 
-export const Profile = (props) =>{
+ const Profile = (props) =>{
   const {username, tag, location, avatar, stats} = props;
   return (
     <div className={css.profile}>
@@ -17,15 +17,15 @@ export const Profile = (props) =>{
       </div>
    
       <ul className={css.stats}>
-        <li>
+        <li className={css.stat}>
           <span className={css.label}>Followers</span>
           <span className={css.quantity}>{stats.followers}</span>
         </li>
-        <li>
+        <li className={css.stat}>
           <span className={css.label}>Views</span>
           <span className={css.quantity}>{stats.views}</span>
         </li>
-        <li>
+        <li className={css.stat}>
           <span className={css.label}>Likes</span>
           <span className={css.quantity}>{stats.likes}</span>
         </li>
@@ -42,6 +42,7 @@ Profile.propTypes = {
     stats: PropTypes.objectOf(PropTypes.number).isRequired,
 }
 
+export default Profile;
 
 
 
