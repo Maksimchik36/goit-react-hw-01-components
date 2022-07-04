@@ -2,12 +2,12 @@
     padding: 20px;
     background-color:rgb(243, 245, 138);
     border-radius: 10px;
-    text-align: center
+    text-align: center;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .title{
     font-size: 30px;
-    text-transform: uppercase;
 }
 
 .statList{
