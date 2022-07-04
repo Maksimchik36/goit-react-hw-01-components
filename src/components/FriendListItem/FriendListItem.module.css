@@ -1,0 +1,45 @@
+.item{
+padding: 20px;
+display: flex;
+align-items: center;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+-23px 0 20px -23px rgba(0, 0, 0, .6),
+23px 0 20px -23px rgba(0, 0, 0, .6),
+inset 0 0 40px rgba(0, 0, 0, .1);;
+}
+.item:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.status{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+}
+
+.statusRed{
+margin-right: 20px;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: red;
+}
+
+.statusGreen{
+margin-right: 20px;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: green;
+
+}
+.avatar{
+margin-right: 20px;
+width: 70px;
+height: 70px;
+}
+
+.name{
+margin: 0;
+font-size: 50px;
+}
