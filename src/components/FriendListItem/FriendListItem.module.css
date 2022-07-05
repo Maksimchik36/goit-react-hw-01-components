@@ -12,12 +12,6 @@ inset 0 0 40px rgba(0, 0, 0, .1);;
     margin-bottom: 30px;
 }
 
-.status{
-width: 10px;
-height: 10px;
-border-radius: 50%;
-}
-
 .statusRed{
 margin-right: 20px;
 width: 10px;

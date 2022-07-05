@@ -21,7 +21,7 @@ export const App = () => {
         justifyContent: 'center',
         flexDirection: 'column',
         alignItems: 'center',
-        fontSize: 40,
+        // fontSize: 40,
         color: '#010101'
       }}
     >

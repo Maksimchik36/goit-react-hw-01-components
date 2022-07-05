@@ -1,0 +1,19 @@
+table td {
+    padding: 15px;
+    border: 1px solid #2a2a2a;
+}
+
+.item{
+background-color: azure;
+}
+
+.type{
+text-transform: capitalize;
+}
+
+tbody tr:nth-child(even) {
+background: rgb(143, 203, 243);
+}
+
+tbody tr:nth-child(odd) {
+background: rgb(255, 255, 255)}

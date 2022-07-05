@@ -1,0 +1,13 @@
+.transactionHistory{
+    border-collapse: collapse;
+    font-size: 25px;
+}
+
+table thead{
+background-color: rgb(37, 118, 223);
+}
+
+table th {
+    padding: 10px;
+    border: 1px solid #2a2a2a;
+}
